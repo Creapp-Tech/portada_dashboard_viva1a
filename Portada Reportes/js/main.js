@@ -15,7 +15,7 @@ const CONFIG = {
             title: 'Juntas Médicas',
             description: 'Análisis y seguimiento de decisiones de juntas médicas interdisciplinarias',
             icon: 'fa-user-md',
-            url: '#/juntas-medicas'
+            url: 'https://app.powerbi.com/groups/310c4e2e-ab00-4cf2-b53b-56d736445f64/reports/e3252ad7-4572-495f-819a-1ad1b0217325/5bf25a5fe6b31931ac4b?experience=power-bi'
         },
         {   
             id: 'recobros',
@@ -209,4 +209,5 @@ class DashboardApp {
 document.addEventListener('DOMContentLoaded', () => {
     const app = new DashboardApp(CONFIG);
     app.init();
+
 });
