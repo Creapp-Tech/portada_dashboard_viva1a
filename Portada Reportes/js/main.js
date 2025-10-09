@@ -22,7 +22,7 @@ const CONFIG = {
             title: 'Recobros',
             description: 'Control y gestión de recobros ante entidades responsables',
             icon: 'fa-file-invoice-dollar',
-            url: '#/recobros'
+            url: 'https://app.powerbi.com/groups/310c4e2e-ab00-4cf2-b53b-56d736445f64/reports/3d606763-26bc-40fd-9e20-93f708f54aed/9d2097f4ba3ad22d742d?experience=power-bi'
         },
         {
             id: 'capacidad-instalada',
@@ -43,7 +43,7 @@ const CONFIG = {
             title: 'Descuentos y Bonificaciones',
             description: 'Análisis de incentivos económicos y ajustes contractuales',
             icon: 'fa-percentage',
-            url: '#/descuentos-bonificaciones'
+            url: 'https://app.powerbi.com/groups/310c4e2e-ab00-4cf2-b53b-56d736445f64/reports/3d606763-26bc-40fd-9e20-93f708f54aed/9d2097f4ba3ad22d742d?experience=power-bi'
         },
         {
             id: 'poblacion',
@@ -211,3 +211,4 @@ document.addEventListener('DOMContentLoaded', () => {
     app.init();
 
 });
+
